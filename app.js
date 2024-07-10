@@ -150,4 +150,5 @@ Complete Exercise 9 in the space below:
 
 
 
-console.log('Exercise 9 result:', allFoods);
+//console.log('Exercise 9 result:', allFoods);
+//
