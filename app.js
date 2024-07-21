@@ -195,7 +195,7 @@ const fizz = [];
 const buzz = [];
 const fizzbuzz = [];
 
-numb.forEach(num => {
+numb.forEach(function(num) {
   if (num % 3 === 0) {
     fizz.push(num);
   }
