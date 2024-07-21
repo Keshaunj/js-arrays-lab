@@ -189,21 +189,29 @@ Exercise 12: FizzBuzz with arrays
 
 Complete Exercise 12 in the space below:
 */
-let fizz = [];
-let buzz = [];
-let fizzbuzz = [];
 
-for (let i = 0; i < nums.length; i++) {
-  if (nums[i] % 3 === 0 && nums[i] % 5 === 0) fizz.push(nums[i]);
-  if (nums[i] )
-  buzz.push(nums[i]);
-  fizzbuzz.push(nums[i]);
-}
+const numb = [1, 3, 5, 9, 10, 15, 18, 20, 30];
+const fizz = [];
+const buzz = [];
+const fizzbuzz = [];
 
-console.log("Exercise 12 Results:");
-console.log("  fizz:", fizz);
-console.log("  buzz:", buzz);
-console.log("  fizzbuzz:", fizzbuzz);
+numb.forEach(num => {
+  if (num % 3 === 0) {
+    fizz.push(num);
+  }
+  if (num % 5 === 0) {
+    buzz.push(num);
+  }
+  if (num % 3 === 0 && num % 5 === 0) {
+    fizzbuzz.push(num);
+  }
+});
+
+console.log('fizz:', fizz);
+console.log('buzz:', buzz);
+console.log('fizzbuzz:', fizzbuzz);
+
+
 
 
 /*
